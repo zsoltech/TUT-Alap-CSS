@@ -1,0 +1,165 @@
+h1 {
+    color: blue;
+}
+
+body {
+    color: #555;
+    background-color: #ececec;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /*font-family: 'Roboto';
+    font-size:16px;
+    font-weight: normal;*/
+
+    font: normal 16px 'Roboto';
+
+    line-height: 1.6em;
+
+    margin: 0;
+
+    /*background-image: url("../image/OIP.jpg");
+    background-repeat: repeat-y;
+    background-position: start bottom;*/
+}
+
+.doboz-1 {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+
+    border-right: 3px #f00 solid;
+    border-left: 3px #f00 dotted;
+
+    border: 3px #f00 solid;
+
+    padding: 20px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.doboz-1 h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover {
+    color: #f00;
+}
+
+a:active {
+    color:#fff;
+}
+
+a:visited {
+    color:#0f0;
+}
+
+.doboz-2 {
+    border: 3px #6a9955 solid;
+    padding: 20px;
+    background-color: #1e1e1e;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista {
+    border: 1px gray solid;
+    padding: 10px;
+
+    border-radius: 20px;
+}
+
+.lista h1 {
+    text-align: center;
+}
+
+.lista ul {
+    list-style: none;
+}
+
+
+
+.lista li:last-child {
+    background-color: #0f0;
+    text-transform: uppercase;
+}
+
+.lista li:nth-child(3) {
+    background-color: #00f;
+}
+
+.lista li:nth-child(even) {
+    background-color: #000;
+}
+
+.lista li:first-child {
+    background-color: #f00;
+}
+
+.lista li {
+    display: inline;
+}
+
+form input[type="text"], form input[type="password"], form textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+form input[type="submit"], .button {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 10px 15px;
+    border: none;
+}
+
+.blokk {
+    float: left;
+    width: 33.3%;
+
+    border: 1px solid #000;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.dobozka {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #1e1e1e;
+
+    margin-top: 10px;
+
+    
+}
+
+.dobozka h1 {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+
+.button.fixed {
+    position: fixed;
+    left:0px;
+    top:200px;
+
+    border-top: 1px solid rgb(255,0,0);
+    border-bottom: 1px solid rgb(255,0,0);
+    border-right: 1px solid rgb(255,0,0);
+}
